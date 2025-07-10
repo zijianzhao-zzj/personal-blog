@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Regression on Zijian Zhao</title><link>/tags/regression/</link><description>Recent content in Regression on Zijian Zhao</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="/tags/regression/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello R Markdown</title><link>/posts/2020-12-01-r-rmarkdown/</link><pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate><guid>/posts/2020-12-01-r-rmarkdown/</guid><description>&lt;h1 id="r-markdown">R Markdown&lt;/h1>
+&lt;p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href="http://rmarkdown.rstudio.com">http://rmarkdown.rstudio.com&lt;/a>.&lt;/p>
+&lt;p>You can embed an R code chunk like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-r" data-lang="r">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">summary&lt;/span>(cars)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## speed dist &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Min. : 4.0 Min. : 2.00 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## 1st Qu.:12.0 1st Qu.: 26.00 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Median :15.0 Median : 36.00 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Mean :15.4 Mean : 42.98 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## 3rd Qu.:19.0 3rd Qu.: 56.00 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Max. :25.0 Max. :120.00&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>fit &lt;span style="color:#f92672">&amp;lt;-&lt;/span> &lt;span style="color:#a6e22e">lm&lt;/span>(dist &lt;span style="color:#f92672">~&lt;/span> speed, data &lt;span style="color:#f92672">=&lt;/span> cars)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>fit
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Call:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## lm(formula = dist ~ speed, data = cars)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## Coefficients:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## (Intercept) speed &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e">## -17.579 3.932&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="including-plots">Including Plots&lt;/h1>
+&lt;p>You can also embed plots. See Figure &lt;!-- raw HTML omitted -->1&lt;!-- raw HTML omitted --> for example:&lt;/p></description></item></channel></rss>
